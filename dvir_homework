@@ -1,0 +1,5 @@
+inp = ['h', 'e', 'l', 'o', 'p', 'y', 't', 'h', 'o', 'n', 7.6]
+num = str(inp[-1])
+n = str(int(num[2]) // 2) + str(num[1]) + str(math.ceil(float(inp[-1])))
+hello_python = inp[0].upper() + ''.join(inp[1:3]) + inp[2] + inp[3] + ' ' + ''.join(inp[4:-1]) + ' ' + n
+print(hello_python)
